@@ -4,8 +4,8 @@ $TM_HINT_SETTINGS
 
 define(
 	[
-		'hbs!templates/${2}${TM_FILENAME/\..*?$//}.tmpl',
-		'${1:namespace}/${2}view/BaseView',
+		'hb!templates/views/${2}${TM_FILENAME/\..*?$//}.tpl',
+		'view/BaseView',
 
 		// Globals
 		'handlebars'
